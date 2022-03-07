@@ -1,4 +1,11 @@
+# finishing school
+
+A place to fine tune.
+
+COPY of https://github.com/kingoflolz/mesh-transformer-jax/blob/master/howto_finetune.md
+
 # Table of contents
+
 1. [Mesh Transformer JAX](#mesh-transformer-jax)
     1. [Updates](#updates)
 2. [Pretrained Models](#pretrained-models)
