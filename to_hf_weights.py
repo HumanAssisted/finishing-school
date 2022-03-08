@@ -259,7 +259,7 @@ def read_npz(fpath: FluidPath):
         )
         assert isinstance(
             deserialized, np.lib.npyio.NpzFile
-        ), f"Not an npz file {type(deserialized)=} {f=}"
+        ), f"Not an npz file {type(deserialized)} {f}"
         # arrays are only loaded when accessed. So we need to access them before returning
         arrays = []
         for i in deserialized:
